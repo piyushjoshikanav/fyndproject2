@@ -141,8 +141,30 @@ th{
  
     }
     #devel{
-        margin-left: 10px;
+        margin-left: 20vh;
+        /* margin-left: 0vh; */
     }
     #skill{
-        width: 50vh;
+        width: 40vh;
     }
+    @keyframes hoverButton{
+        from{
+            color: green;
+            background: white;
+        }
+        to{
+            color: white;
+            background: green;
+            box-shadow: 3px 4px rgba(246, 107, 166,30%s)
+        }
+    }
+    .quotaButtonAnimation:hover{
+        animation: hoverButton .5s forwards; 
+      
+    }
+    #design{
+        padding-left: 0px;
+    }
+    #ui{
+    margin-left: 15vh;
+    }        
