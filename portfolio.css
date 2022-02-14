@@ -39,18 +39,19 @@
     font-size: 15px;
   }
   #back {
-    background-image: url(./source/about-right-dec.jpg);
+    background-image: url(./source/abstract-background-illustration-watercolor-blue-green.jpg);
     background-position: center;
     padding: 0vh 20vh 5vh 20vh;
   }
   #parenthero {
     display: flex;
     flex-direction: row;
-    background-image: url(./source/slider-right-dec.jpg);
-    background-position: center;
+    /* background-image: url(./source/slider-right-dec.jpg); */
+    /* background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: center;
+    justify-content: center; */
+    padding-left: 25vh;
   }
   #dataparent {
     display: flex;
@@ -82,7 +83,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 0px 25vh 0px 25vh;
+    padding: 50px 25vh 0px 25vh;
     
     /* padding-left: 40vh; */
 }
@@ -90,7 +91,7 @@
    
 }
 .back2{
-    background-image: url(./source/portfolio-left-dec.jpg);
+    background-image: url(./source/abstract-background-illustration-watercolor-blue-green.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover ;
