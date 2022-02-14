@@ -1,0 +1,147 @@
+.flex {
+    display: flex;
+  }
+  .flex50 {
+    flex-basis: 50%;
+  }
+  .flex16 {
+    flex-basis: 16%;
+  }
+  .flex13 {
+    flex-basis: 13%;
+  }
+  .strongText {
+    font-weight: bold;
+  }
+  /*Nav Bar*/
+  .navbar {
+    margin: 10px 50px;
+  }
+  .topnav {
+    background: lightgray;
+    height: 1%;
+  }
+  .navimg {
+    width: 15%;
+    margin: 10px 15px;
+  }
+  .buttonparent {
+    font-size: 0px;
+  }
+  .quotabtn {
+    background: white;
+    border: 1px  green solid;
+    border-radius: 20px;
+    color: green;
+    width: 140px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 15px;
+  }
+  #back {
+    background-image: url(./source/about-right-dec.jpg);
+    background-position: center;
+    padding: 0vh 20vh 5vh 20vh;
+  }
+  #parenthero {
+    display: flex;
+    flex-direction: row;
+    background-image: url(./source/slider-right-dec.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  #dataparent {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+  }
+  .title {
+    color: rgb(236, 152, 73);
+    font-weight: bold;
+    
+  }
+  .head {
+    padding-bottom: 2vh;
+    padding-top: 10vh;
+    color: black;
+    font-size: 5vh;
+    font-weight: bold;
+  }
+  .sample {
+    color: black;
+  }
+  #ctadiv {
+    padding-top: 3vh;
+  }
+  #im{
+      width: 100px;
+}
+#tabl{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0px 25vh 0px 25vh;
+    
+    /* padding-left: 40vh; */
+}
+#tat{
+   
+}
+.back2{
+    background-image: url(./source/portfolio-left-dec.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover ;
+    padding-top: 5px;
+    border-radius: 10%;
+    padding-left: 35vh;
+    
+}
+table{
+    border: 1px solid;
+    border-radius: 5px;
+}
+th{
+    border: 1px solid;
+    width: 15vh;
+
+}
+#parenthire{
+    flex-direction: row;
+    margin-top: 10vh;
+    padding: 0vh 25vh;
+}
+#bdba1{
+    flex-direction: column;
+    padding: 0vh 25vh 0vh 25vh;
+
+}
+.carddescription {
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .card {
+    width: 200px;
+    margin: 40px;
+    background-color: orange;
+    border-radius: 25%;
+}
+  .cardimg {
+    width: 50px;
+    margin-top: 25px;
+}
+  
+  .carddiv{
+      
+      margin-left: 65px;
+ 
+    }
+    #devel{
+        margin-left: 10px;
+    }
+    #skill{
+        width: 50vh;
+    }
